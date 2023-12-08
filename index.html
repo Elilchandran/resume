@@ -25,7 +25,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            color:#225f6b;
+             color:#01191f; 
+            /* color:#5f4108; */
         }
 
         .book {
@@ -53,17 +54,23 @@
 
         .project-title a {
         text-decoration: none;
-        color: #007bff; /* Default link color */
+        color:  #e2ac48; /* Default link color */
         transition: color 0.3s; /* Smooth color transition */
     }
 
     .project-title a:hover {
-        color: #e2ac48; /* Color when hovering over the link */
+        color:#007bff; /* Color when hovering over the link */
         font-weight: bold; /* Bold font when hovering over the link */
     }
 
-    
-  
+  .spacing  {
+    padding-top: -20px;
+  }
+.spacingli {
+    line-height: 1.5; /* You can adjust this value to control the line spacing */
+    margin-bottom: -15px;
+}
+
 
     </style>
     
@@ -136,9 +143,11 @@
                             <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
                         </svg>
                     </div>
+                    
+                    
                     <div class="book">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
-                            <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                            <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
                           </svg>
                     </div>
                     <div class="book">
@@ -195,8 +204,8 @@
                     </div>
                     <div class="book">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
-                            <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
-                        </svg>
+                            <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                          </svg>
                     </div>
                     <!-- <div class="book">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
@@ -332,12 +341,13 @@
                             <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
                         </svg>
                     </div>
-                    
                     <div class="book">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
-                            <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
-                          </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                            <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+                        </svg>
                     </div>
+                    
+                
                     <div class="book">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
                             <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
@@ -387,7 +397,7 @@
             <section class="section summary-section">
                 <h2 class="section-title"><span class="icon-holder"><i class="fa-solid fa-user"></i></span>About Me</h2>
                 <div class="summary">
-                    <p style="text-align:justify ;">Dedicated Full Stack Developer with a passion for crafting seamless and innovative solutions. I aspire to secure a pivotal role in a esteemed organization where I can leverage my skills to drive technological excellence. Eager to contribute my in-depth knowledge and expertise to not only meet project goals but also to align my professional growth with the success of the organization.</p>
+                    <p style="text-align:justify ;">Dedicated Full Stack Developer with a passion for crafting dynamic and innovative solutions. I aspire to secure a pivotal role in a esteemed organization where I can leverage my skills to drive technological excellence. Eager to contribute my in-depth knowledge and expertise to not only meet project goals but also to align my professional growth with the success of the organization.</p>
                 </div><!--//summary-->
             </section><!--//section-->
             
@@ -462,49 +472,111 @@
                 <!-- <div class="intro">
                     <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
                 </div>//intro -->
-                <ul>
-                    <li style="text-align:justify ;">
-                        <div class="item">
-                            <span class="project-title"><a href="https://celadon-twilight-cafa74.netlify.app/" target="_blank"> <b>Student Task Submission Portal</b></a></span> - <span class="project-tagline">
-                                I developed a <b>Student Task Submission Portal</b> and its my porfolio project, it utilizing <b>React.js</b>  for the <b>front-end</b>, <b>Node.js</b> for the <b>back-end</b>, and 
-                                <b>MongoDB </b>for the <b>database</b>.<br> &nbsp; &nbsp; &nbsp; Prioritizing code quality,
-                                 I incorporated fonts/icons, various charts, and adhered to design best practices using Bootstrap/Material CSS.
-                                 I showcased my proficiency by <b>deploying the front-end</b> on <b><i>Netlify</i></b> and the <b><i>back-end on Render</i></b> , and the project is available on GitHub with a separate repositories for
-                                  <span class="project-title" ><a href="https://github.com/Elilchandran/project_name_frontend.git" target="_blank"> Front-end</a> </span>  and
-                                  <span class="project-title" ><a href="https://github.com/Elilchandran/project_name_backend.git" target="_blank"> Back-end</a> </span> </span>
-                        </div><!--//item-->
-                    </li>
-                    <hr class="lineMain" style="border: 1px solid rgb(52, 109, 109); font-weight: bold;"><br>
-                    <li style="text-align:justify ;">
-                        <div class="item">
-                            <span class="project-title"><a href="https://frabjous-blancmange-3e1da0.netlify.app/" target="_blank"><b>Face Detection & Gender Recognition</b></a></span> - <span class="project-tagline">
-                                I designed my first React project with pleasing <b>design</b> using the <b>'react-particles' library</b> for particle animations.  I integrated the <b>Clarifai API</b> to 
-                                <i> detect faces and genders</i>, 
-                                implementing custom functions for seamless data retrieval. The project features smooth <b><i>navigation between sign-in, registration, and home screens</i></b>,
-                                 effortlessly <b>handling image URLs</b>. This results in a dynamic display of  <b><i>face detection and gender information</i></b> within an interactive user interface.<br> 
+                
+                   
+                        <div class="item" style="text-align:justify ;">
+                            <span class="project-title"><a href="https://frabjous-blancmange-3e1da0.netlify.app/" target="_blank"><b> Face Detection & Gender Recognition</b></a></span> -
+                             <span class="project-tagline"><br><ul class="spacing">
+                                &nbsp; &nbsp; &nbsp;<li class="spacingli">Designed my first Front-end React project with pleasing <b>design</b> using the <b>'react-particles' library</b> for particle 
+                                    animations. </li> 
+                                    &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                        Integrated the <b>Clarifai API</b> to <i> detect faces and genders</i>,implementing custom functions for seamless data retrieval.
+                                    </li> 
+                                    &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                        Handled <b>image URLs</b>. This results in a dynamic display of  <b><i>face detection and gender information</i></b> within an interactive user interface.
+                                    </li>
+                                &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                    Available on  <span class="project-title" >
+                                        <a href="https://github.com/Elilchandran/gender-demographics-recognition.git" target="_blank"> <b>GitHub</b></a> with  separate repositories.
+                                </li></span>
+                             </ul>
                                 
-                                &nbsp; &nbsp; &nbsp;This clean and organized code reflects my commitment to creating effective and user-friendly applications also showing off my JavaScript and React skills.  
-                            </span>The project is available on  <span class="project-title" ><a href="https://github.com/Elilchandran/gender-demographics-recognition.git" target="_blank"> <b>GitHub</b></a> with  separate repositories.
                             
-                        </div><!--//item-->
-                    </li>
+                        </div><br>
+                    
+                    <hr class="lineMain" style="border: 1px solid rgb(52, 109, 109); font-weight: bold;"><br>
+                   
+                        <div class="item" style="text-align:justify ;">
+                            <span class="project-title"><a href="https://celadon-twilight-cafa74.netlify.app/" target="_blank"> <b>Student Task Submission Portal</b></a>
+                            </span> - <span class="project-tagline"><br><ul class="spacing">
+                                &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                    Developed a <b>Student Task Submission Portal</b> and it's the star of my portfolio, it utilizing <b>React.js</b>  for the <b>front-end</b>, 
+                                    <b>Node.js</b> for the <b>back-end</b>, and <b>MongoDB </b>for the <b>database</b>.
+                                </li class="spacingli">
+                                 &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                   
+                                    Prioritizing code quality, I implemented a clean and well-structured codebase. 
+                                    The portal not only excels in functionality also with pleasing design.
+                                    <b>Fonts </b> and <b>icons</b>, alongside various <b>charts</b>, were incorporated to enhance the user interface, 
+                                    and design best practices using <b>Bootstrap/Material CSS</b>.
+                                 </li>
+                                 &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                    Showcased proficiency by <b>deploying the front-end</b> on <b><i>Netlify</i></b> and the <b><i>back-end on Render</i></b>
+                                    .This will reflect my comprehensive skills in full-stack development. 
+                                 </li>
+                                 &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                    Available on GitHub with separate
+                                  <span class="project-title" ><a href="https://github.com/Elilchandran/project_name_frontend.git" target="_blank"><b>Front-end Repository</b> </a> </span>  and
+                                  <span class="project-title" ><a href="https://github.com/Elilchandran/project_name_backend.git" target="_blank"> <b>Back-end Repository</b></a> </span> </span>
+                                 </li>
+                                 
+                                </ul>
+                        </div><br>
+                    
+                    <hr class="lineMain" style="border: 1px solid rgb(52, 109, 109); font-weight: bold;"><br>
+                  
+                    
+                        <div class="item" style="text-align:justify ;">
+                            <span class="project-title"><a href="https://visionary-conkies-5130af.netlify.app/" target="_blank"><b>BotCompanion Hub </b></a></span> -
+                             <span class="project-tagline"><br><ul class="spacing">
+                                &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                     Created a responsive and visually appealing <b><i>'RoboFriends'</i></b> a user interface using React, <b>displays user profiles</b>
+                                     
+                                </li>
+                                &nbsp; &nbsp; &nbsp;<li class="spacingli">         
+                                    Integrated the <b>'jsonplaceholder' API</b>, it
+                                    facilitates easy retrieval.
+                                </li>
+                                &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                    Designed and implemented a robust <b>search</b> feature,
+                                     allowing users to easily navigate and find <b>specific profiles</b> within it.
+                                </li>
+                                &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                    Available on <span class="project-title" ><a href="https://github.com/Elilchandran/robot.git" target="_blank">
+                                        <b>GitHub</b></a> with  separate repositories.
+                                </li>
+                             </ul>
+                        </div><br>
+                   
                     <hr class="lineMain" style="border: 1px solid rgb(52, 109, 109); font-weight: bold;"><br>
 
                 
-                     <li style="text-align:justify ;">
-                        <div class="item">
-                            <span class="project-title"><a href="https://sage-tulumba-48ad56.netlify.app/" target="_blank"><b>Character Portfolio: Thrones Edition.</b></a></span> - <span class="project-tagline">
-                                I developed a <b>dynamic character</b> display <b>using HTML, CSS, and JavaScript</b>, fetching character data from the 'ThronesAPI.' 
-                                Leveraging asynchronous functions, the application dynamically generates
-                                 responsive cards featuring 'Game of Thrones' characters.<br>
-                                 &nbsp; &nbsp; &nbsp;The project showcases <b>my proficiency</b> in <b>handling API requests</b>, manipulating the <b>DOM</b>, 
-                                 and creating visually appealing user interfaces</span>and
-                                  the project is available on 
-                                 <span class="project-title" ><a href="https://github.com/Elilchandran/Game-of-Thrones.git" target="_blank"> <b>GitHub</b></a> with separate repositories.
-                                  </span>
+                    
+                        <div class="item" style="text-align:justify ;">
+                            <span class="project-title"><a href="https://sage-tulumba-48ad56.netlify.app/" target="_blank"><b>Character Portfolio: Thrones Edition.</b></a></span> - 
+                            <span class="project-tagline"><br><ul class="spacing">
+                                &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                    Developed a <b>dynamic character</b> display <b>using HTML, CSS, and JavaScript</b>, fetching character data from the 'ThronesAPI.' 
+                                </li>
+                                
+                           
+                                &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                Leveraging asynchronous functions to dynamically generate
+                                 responsive cards featuring 'Game of Thrones' characters.
+                            </li>
+                            &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                Showcases <b>proficiency</b> in <b>handling API requests</b>, manipulating the <b>DOM</b>, 
+                                 and creating visually appealing user interfaces.
+                            </li>
+                            &nbsp; &nbsp; &nbsp;<li class="spacingli">
+                                Available on 
+                                <span class="project-title" ><a href="https://github.com/Elilchandran/Game-of-Thrones.git" target="_blank"> <b>GitHub</b></a> with separate repositories.
+                                 </span>
+                            </li>
+                        </ul>
                         </div><!--//item-->
-                     </li>    
-                </ul>        
+                       
+                       
             </section><!--//section-->
             
       
